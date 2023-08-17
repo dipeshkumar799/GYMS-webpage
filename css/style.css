@@ -1,0 +1,92 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("./img/gymsa.jpg");
+}
+.left {
+  font-family: "Caprasimo", cursive;
+  display: inline-block;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+}
+.center {
+  display: block;
+  width: 60%;
+  margin: 30px auto;
+}
+.right {
+  position: absolute;
+  right: -6px;
+  top: 50px;
+  display: inline-block;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  color: aqua;
+  text-decoration: underline;
+}
+.left div {
+  color: white;
+  text-align: center;
+}
+.left img {
+  filter: invert(100%);
+  width: 110px;
+}
+.btn {
+  margin: 0px 9px;
+  border: 2px solid white;
+  color: white;
+  background-color: black;
+  padding: 4px 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn:hover {
+  color: brown;
+}
+.container {
+  color: beige;
+  margin: 130px 50px;
+  padding: 136px 55px;
+  width: 40%;
+  border-radius: 2px;
+}
+.formgroup input {
+  width: 80%;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 5px;
+}
+.button button {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border-radius: 8px;
+  background-position: 40px;
+  float: right;
+  cursor: pointer;
+}
+.button button:hover {
+  color: black;
+  background-color: blueviolet;
+}
+.ip {
+  float: left;
+  padding: 9px;
+  margin: 8px;
+}
+</style>
